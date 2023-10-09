@@ -76,7 +76,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 
 ## Major Cloud Providers
 
-  * [Google Cloud Platform](https://cloud.google.com)
+  * [Google Cloud Platform](https://cloud.google.com) 国内无法访问
     * App Engine - 28 frontend instance hours per day, 9 backend instance hours per day
     * Cloud Firestore - 1GB storage, 50,000 reads, 20,000 writes, 20,000 deletes per day
     * Compute Engine - 1 non-preemptible e2-micro, 30GB HDD, 5GB snapshot storage (restricted to certain regions), 1 GB network egress from North America to all region destinations (excluding China and Australia) per month
@@ -92,7 +92,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
     * [Google Colab](https://colab.research.google.com/) - Free Jupyter Notebooks development environment.
     * Full, detailed list - https://cloud.google.com/free
 
-  * [Amazon Web Services](https://aws.amazon.com)
+  * [Amazon Web Services](https://aws.amazon.com) 需绑定信用卡
     * [CloudFront](https://aws.amazon.com/cloudfront/) - 1TB egress per month and 2M Function invocations per month
     * [Cloudwatch](https://aws.amazon.com/cloudwatch/) - 10 custom metrics and 10 alarms
     * [CodeBuild](https://aws.amazon.com/codebuild/) - 100min of build time per month
@@ -110,7 +110,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
     * [SQS](https://aws.amazon.com/sqs/) - 1 million messaging queue requests
     * Full, detailed list - https://aws.amazon.com/free/
 
-  * [Microsoft Azure](https://azure.microsoft.com)
+  * [Microsoft Azure](https://azure.microsoft.com) 需绑定信用卡
     * [Virtual Machines](https://azure.microsoft.com/services/virtual-machines/) - 1 B1S Linux VM, 1 B1S Windows VM (12mo)
     * [App Service](https://azure.microsoft.com/services/app-service/) - 10 web, mobile or API apps (60 CPU minutes / day)
     * [Functions](https://azure.microsoft.com/services/functions/) - 1 million requests per month
@@ -132,7 +132,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
     * [Event Grid](https://azure.microsoft.com/services/event-grid/) - 100K ops/month
     * Full, detailed list - https://azure.microsoft.com/free/
 
-  * [Oracle Cloud](https://www.oracle.com/cloud/)
+  * [Oracle Cloud](https://www.oracle.com/cloud/) 需绑定信用卡
     * Compute
        - 2 AMD based Compute VMs with 1/8 OCPU and 1 GB memory eachs
        - 4 Arm-based Ampere A1 cores and 24 GB of memory usable as one VM or up to 4 VMs
@@ -172,7 +172,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 
 ## Cloud management solutions
   * [Brainboard](https://www.brainboard.co) - Collaborative solution to visually build and manage cloud infrastructures from end-to-end.
-  * [Cloud 66](https://www.cloud66.com/) - Free for personal projects (includes 1 deployment server, 1 static site), Cloud 66 gives you everything you need to build, deploy, and grow your applications on any cloud without the headache of the “server stuff.”.
+  * [Cloud 66](https://www.cloud66.com/) - Free for personal projects (includes 1 deployment server, 1 static site), Cloud 66 gives you everything you need to build, deploy, and grow your applications on any cloud without the headache of the “server stuff.”. 需要提供其它云服务商的API信息用于部署！
   * [Pulumi](https://www.pulumi.com/) — Modern infrastructure as code platform that allows you to use familiar programming languages and tools to build, deploy, and manage cloud infrastructure.
   * [Selefra](https://www.selefra.io/) - Selefra free tier offers individual users to scan one single-source connection to discover security and compliance issues on the configurations level of cloud/infra/SaaS.
   * [terraform.io](https://www.terraform.io/) — Terraform Cloud. Free remote state management and team collaboration for up to 500 resources.
@@ -362,9 +362,9 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
   * [numlookupapi.com](https://numlookupapi.com) - Free phone number validation API - 100k free requests / month.
   * [Volca](https://volca.io#api) - Free API providing lists of technologies such as programming languages and database systems. Unlimited free requests.
   * [Query.me](https://query.me) - Collaborative data notebooks that execute in a script-like fashion and allow to fetch and send data via SQL, API, and a growing number custom blocks, like Slack and Email. Free for small Teams.
-* [ERD Lab](https://www.erdlab.io) —  Free cloud based entity relationship diagram (ERD) tool made for developers.
-* [What The Diff](https://whatthediff.ai) - AI-powered code review assistant. The free plan has a limit of 25,000 tokens per month (~10 PRs).
-* [Zipcodestack](https://zipcodestack.com) - Free Zip Code API and Postal Code Validation. 10000 free requests/month.
+  * [ERD Lab](https://www.erdlab.io) —  Free cloud based entity relationship diagram (ERD) tool made for developers.
+  * [What The Diff](https://whatthediff.ai) - AI-powered code review assistant. The free plan has a limit of 25,000 tokens per month (~10 PRs).
+  * [Zipcodestack](https://zipcodestack.com) - Free Zip Code API and Postal Code Validation. 10000 free requests/month.
 
 **[⬆️ Back to Top](#table-of-contents)**
 
@@ -641,7 +641,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
   * [Infisical](https://infisical.com/) — Open source platform that lets you manage developer secrets across your team and infrastructure: everywhere from local development to staging/production 3rd-party services. Free for up to 5 developers.
   * [Internet.nl](https://internet.nl) — Test for modern Internet Standards like IPv6, DNSSEC, HTTPS, DMARC, STARTTLS and DANE
   * [keychest.net](https://keychest.net) - SSL expiry management and cert purchase with an integrated CT database
-  * [letsencrypt.org](https://letsencrypt.org/) — Free SSL Certificate Authority with certs trusted by all major browsers
+  * [letsencrypt.org](https://letsencrypt.org/) — Free SSL Certificate Authority with certs trusted by all major browsers 申请证书和自动续期需要使用certbot等工具
   * [meterian.io](https://www.meterian.io/) - Monitor Java, Javascript, .NET, Scala, Ruby and NodeJS projects for security vulnerabilities in dependencies. Free for one private project, unlimited projects for open source.
   * [Mozilla Observatory](https://observatory.mozilla.org/) — Find and fix security vulnerabilities in your site.
   * [opswat.com](https://www.opswat.com/) — Security Monitoring of computers, devices, applications, configurations,... Free 25 users and 30 days history users.
@@ -784,7 +784,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 
 ## Monitoring
 
-  * [Pingmeter.com](https://pingmeter.com/) - 5 uptime monitors with 10 minutes interval. Monitor SSH, HTTP, HTTPS, and any custom TCP ports.
+  * [Pingmeter.com](https://pingmeter.com/) - 5 uptime monitors with 10 minutes interval. Monitor SSH, HTTP, HTTPS, and any custom TCP ports. 仅检测端口可用性，无法做健康检查。10天的试用期！
   * [appdynamics.com](https://www.appdynamics.com/) — Free for 24 hours metrics, application performance management agents limited to one Java, one .NET, one PHP and one Node.js
   * [appneta.com](https://www.appneta.com/) — Free with 1-hour data retention
   * [appspector.com](https://appspector.com/) - Mission control, for remote iOS/Android/Flutter debugging. Free for small traffic usage (64MB of logs).
@@ -794,7 +794,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
   * [cloudsploit.com](https://cloudsploit.com) — AWS security and configuration monitoring. Free: unlimited on-demand scans, unlimited users, unlimited stored accounts. Subscription: automated scanning, API access, etc.
   * [cronitor.io](https://cronitor.io/) - Performance insights and uptime monitoring for cron jobs, websites, APIs and more. Free tier with 5 monitors.
   * [datadoghq.com](https://www.datadoghq.com/) — Free for up to 5 nodes
-  * [deadmanssnitch.com](https://deadmanssnitch.com/) — Monitoring for cron jobs. 1 free snitch (monitor), more if you refer others to sign up
+  * [deadmanssnitch.com](https://deadmanssnitch.com/) — Monitoring for cron jobs. 1 free snitch (monitor), more if you refer others to sign up 通过被监控对象主动上报来展示被监控对象是否健康
   * [downtimemonkey.com](https://downtimemonkey.com/) — 60 uptime monitors, 5 minute interval. Email, Slack alerts.
   * [economize.cloud](https://economize.cloud) — Economize helps demystify cloud infrastructure costs by organizing cloud resources, optimize and report the same. Free for up to $5000 spends on Google Cloud Platform every month.
   * [elastic.co](https://www.elastic.co/solutions/apm) — Instant performance insights for JS developers. Free with 24 hours data retention
@@ -821,7 +821,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
   * [pingpong.one](https://pingpong.one/) — Advanced status page platform with monitoring. Free tier includes one public customizable status page with SSL subdomain. Pro plan is offered to open-source projects and non-profits free of charge.
   * [robusta.dev](https://home.robusta.dev/) — Powerful Kubernetes monitoring, based on Prometheus. Bring your own Prometheus or install the all-in-one bundle. Free tier includes up to 20 Kubernetes nodes. Alerts via Slack, Microsoft Teams, Discord, and more. Integrations with PagerDuty, OpsGenie, VictorOps, DataDog, and many other tools.
   * [sematext.com](https://sematext.com/) — Free for 24 hours metrics, unlimited number of servers, 10 custom metrics, 500,000 custom metrics data points, unlimited dashboards, users, etc.
-  * [sitemonki.com](https://sitemonki.com/) — Website, domain, Cron & SSL monitoring, 5 monitors in each category for free
+  * [sitemonki.com](https://sitemonki.com/) — Website, domain, Cron & SSL monitoring, 5 monitors in each category for free 通过被监控对象主动上报来展示被监控对象是否健康
   * [sitesure.net](https://sitesure.net) - Website and cron monitoring - 2 monitors free
   * [skylight.io](https://www.skylight.io/) — Free for first 100,000 requests (Rails only)
   * [speedchecker.xyz](https://probeapi.speedchecker.xyz/) — Performance Monitoring API, checks Ping, DNS, etc.
@@ -834,7 +834,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
   * [zenduty.com](https://www.zenduty.com/) — End-to-end incident management, alerting, on-call management and response orchestration platform for network operations, site reliability engineering and DevOps teams. Free for upto 5 users.
   * [instatus.com](https://instatus.com) - Get a beautiful status page in 10 seconds. Free forever with unlimited subs and unlimited teams.
   * [Squadcast.com](https://squadcast.com) - Squadcast is an end-to-end incident management software that's designed to help you promote SRE best practices. Free forever plan available for upto 10 users.
-  * [RoboMiri.com](https://robomiri.com/) - RoboMiri is a stable uptime monitor that offer a wide range of monitors: cronjob, keyword, website, port, ping. 25 uptime checks with a 3 minutes interval checks for free. Alerts via Phone Call, SMS, Email and Web Hook.
+  * [RoboMiri.com](https://robomiri.com/) - RoboMiri is a stable uptime monitor that offer a wide range of monitors: cronjob, keyword, website, port, ping. 25 uptime checks with a 3 minutes interval checks for free. Alerts via Phone Call, SMS, Email and Web Hook. 引入了google相关静态资源，无法注册
   * [Better Stack](https://betterstack.com/better-uptime) - Uptime monitoring, incident management, on-call scheduling/alerting and status pages in a single product. 10 monitors with 3 min check frequency and status pages are included on the free plan.
   * [Pulsetic](https://pulsetic.com) - 10 monitors, 6 Months Historical Uptime/Logs, unlimited status pages and custom domains included! For unlimited time and unlimited email alerts for free. No credit card required.
   * [Wachete](https://www.wachete.com) - monitor 5 pages, checks every 24 hours.
@@ -925,7 +925,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
   * [Sendinblue](https://www.sendinblue.com/) — 9,000 emails/month, 300 emails/day free
   * [Sendpulse](https://sendpulse.com) — 500 subscribers/month, 12,000 emails/month free
   * [SimpleLogin](https://simplelogin.io/) – Open source, self-hostable email alias/forwarding solution. Free 5 Aliases, unlimited bandwith, unlimited reply/send. Free for educational staffs (student, researcher, etc).
-  * [Skiff](https://skiff.com/)- Open source, end-to-end encrypted anonymous email service, no additional details asked at signup, free 10GB drive storage, 1 custom domain for your own website, free 4 aliases for your email address per account. Additional Crypto Wallet support for E2EE environment.
+  * [Skiff](https://skiff.com/) - Open source, end-to-end encrypted anonymous email service, no additional details asked at signup, free 10GB drive storage, 1 custom domain for your own website, free 4 aliases for your email address per account. Additional Crypto Wallet support for E2EE environment.
   * [Substack](https://substack.com) — Unlimited free newsletter service. Start paying when you charge for it.
   * [Tempmailo](https://tempmailo.com/) - Unlimited free temp email addresses. Autoexpire in two days.
   * [Takeout](https://takeout.bysourfruit.com) - A constantly updated email service that makes sending emails extremely easy. 500 transactional emails/month free.
@@ -996,7 +996,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
   * [Form.taxi](https://form.taxi/) — Endpoint for HTML forms submissions. With notifications, spam blocker and GDPR-compliant data processing. Free plan for basic usage.
   * [Formcake.com](https://formcake.com) - Form backend for devs, free plan allows unlimited forms, 100 submissions, Zapier integration. No libraries or dependencies required.
   * [Formcarry.com](https://formcarry.com) - HTTP POST Form endpoint, Free plan allows 100 submissions per month.
-  * [formingo.co](https://www.formingo.co/)- Easy HTML forms for static websites, get started for free without registering an account. Free plan allows 500 submissions per month, customizable reply-to email address.
+  * [formingo.co](https://www.formingo.co/) - Easy HTML forms for static websites, get started for free without registering an account. Free plan allows 500 submissions per month, customizable reply-to email address.
   * [FormKeep.com](https://www.formkeep.com/) - Unlimited forms with 50 submissions per month, spam protection, email notification and a drag and drop designer that can export HTML. Additional features include custom field rules, teams and integrations to Google Sheets, Slack, ActiveCampaign and Zapier.
   * [formlets.com](https://formlets.com/) — Online forms, unlimited single page forms/month, 100 submissions/month, email notifications.
   * [formspark.io](https://formspark.io/) -  Form to Email service, free plan allows unlimited forms, 250 submissions per month, support by Customer assistance team.
@@ -1055,13 +1055,13 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 
   * [anvil.works](https://anvil.works) - Web app development with nothing but Python. Free tier with unlimited apps, 30 second timeouts.
   * [configure.it](https://www.configure.it/) — Mobile app development platform, free for 2 projects, limited features but no resource limits
-  * [codenameone.com](https://www.codenameone.com/) — Open source, cross platform, mobile app development toolchain for Java/Kotlin developers. Free for commercial use with unlimited number of projects
+  * [codenameone.com](https://www.codenameone.com/) — Open source, cross platform, mobile app development toolchain for Java/Kotlin developers. Free for commercial use with unlimited number of projects 在线android应用编码
   * [Cosmonic](https://cosmonic.com) - Feature rich WebAssembly PaaS and SDKs for low boilerplate, flexible, and secure by default microservices. Always free tier includes a managed host, 25 microservices, and included capabilities like a robust keyvalue store, load balanced public HTTP endpoints, and more.
   * [Cyclic](https://www.cyclic.sh) - Fullstack app hosting - Push to Github for build and deploy of Javascript/Node.js apps. Includes: Authentication, Cron jobs, Custom Domains, Database, Storage and Streaming logs. Paid plans include: branch based environments, multi-regional deployments and increased limits.
   * [Deno Deploy](https://deno.com/deploy) - Distributed system that runs JavaScript, TypeScript, and WebAssembly at the edge, worldwide. Free tier includes 100,000 requests per day and 100 GiB data transfer per month.
-  * [domcloud.co](https://domcloud.co) – Linux hosting service that also provides CI/CD with GitHub, SSH and MariaDB/Postgres database. Free version has 1 GB storage and 1 GB network/month limit and limited to a free domain.
+  * [domcloud.co](https://domcloud.co) – Linux hosting service that also provides CI/CD with GitHub, SSH and MariaDB/Postgres database. Free version has 1 GB storage and 1 GB network/month limit and limited to a free domain. 特有的部署语法，自定义域名需付费，需至少每60天登录一次。
   * [encore.dev](https://encore.dev/) — Backend framework using static analysis to provide automatic infrastructure, boilerplate free code, and more. Includes free cloud hosting for hobby projects.
-  * [gigalixir.com](https://gigalixir.com/) - Gigalixir provide 1 free instance that never sleeps, and free-tier PostgreSQL database limited to 2 connections, 10, 000 rows and no backups, for Elixir/Phoenix apps.
+  * [gigalixir.com](https://gigalixir.com/) - Gigalixir provide 1 free instance that never sleeps, and free-tier PostgreSQL database limited to 2 connections, 10, 000 rows and no backups, for Elixir/Phoenix apps. 类似Heroku，需要安装python3，然后pip安装gigalixir。
   * [Glitch](https://glitch.com/) — Free public hosting with features such as code sharing and real-time collaboration. Free plan has 1000 hours/month limit.
   * [Mendix](https://www.mendix.com/) — Rapid Application Development for Enterprises, unlimited number of free sandbox environments supporting unlimited users, 0.5 GB storage and 1 GB RAM per app. Also Studio and Studio Pro IDEs are allowed in free tier.
   * [m3o.com](https://m3o.com) - A cloud platform for API services development. M3O is a fully managed Micro as a Service offering focusing on Go microservices development in the Cloud. Free tier provides enough to run 5 services and collaborate with others.
@@ -1103,7 +1103,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
   * [pushbots.com](https://pushbots.com/) — Push notification service. Free for up to 1.5 million pushes/month
   * [pushcrew.com](https://pushcrew.com/) — Push notification service. Unlimited notifications up to 2000 Subscribers
   * [pusher.com](https://pusher.com/beams) — Free, unlimited push notifications for 2000 monthly active users. A single API for iOS and Android devices.
-   * [engagespot.co](https://engagespot.co/) — Notification infrastructure for developers. Free for upto 100 monthly active users.
+  * [engagespot.co](https://engagespot.co/) — Notification infrastructure for developers. Free for upto 100 monthly active users.
   * [quickblox.com](https://quickblox.com/) — A communication backend for instant messaging, video and voice calling and push notifications
   * [restspace.io](https://restspace.io/) - Configure a server with services for auth, data, files, email API, templates etc, then compose into pipelines and transform data.
   * [Salesforce Developer Program](https://developer.salesforce.com/signup) — Build apps Lightning fast with drag and drop tools. Customize your data model with clicks. Go further with Apex code. Integrate with anything using powerful APIs. Stay protected with enterprise-grade security. Customize UI with clicks or any leading-edge web framework. Free Developer Program gives access to the full Lightining Platform.
@@ -1115,8 +1115,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
   * [tyk.io](https://tyk.io/) — API management with authentication, quotas, monitoring and analytics. Free cloud offering
   * [zapier.com](https://zapier.com/) — Connect the apps you use, to automate tasks. 5 zaps, every 15 minutes and 100 tasks/month
   * [IFTTT](https://ifttt.com) — Automate your favorite apps and devices. Free 2 Applets
-  * [Integrately](https://integrately.com) — Automate your tedious tasks with a single click. Free 100 Tasks, 15 Minute
-Update Time, 5 active automations, webhooks.
+  * [Integrately](https://integrately.com) — Automate your tedious tasks with a single click. Free 100 Tasks, 15 Minute Update Time, 5 active automations, webhooks.
   * [LeanCloud](https://leancloud.app/) — Mobile backend. 1GB of data storage, 256MB instance, 3K API requests/day, 10K pushes/day are free. (API is very similar to Parse Platform)
 
 **[⬆️ Back to Top](#table-of-contents)**
@@ -1136,7 +1135,7 @@ Update Time, 5 active automations, webhooks.
 
 ## Web Hosting
 
-  * [Alwaysdata](https://www.alwaysdata.com/) — 100 MB free web hosting with support for MySQL, PostgreSQL, CouchDB, MongoDB, PHP, Python, Ruby, Node.js, Elixir, Java, Deno, custom web servers, access via FTP, WebDAV and SSH; mailbox, mailing list and app installer included.
+  * [Alwaysdata](https://www.alwaysdata.com/) — 100 MB free web hosting with support for MySQL, PostgreSQL, CouchDB, MongoDB, PHP, Python, Ruby, Node.js, Elixir, Java, Deno, custom web servers, access via FTP, WebDAV and SSH; mailbox, mailing list and app installer included. 无法注册，疑似封禁了国内IP。
   * [Awardspace.com](https://www.awardspace.com) — Free web hosting + a free short domain, PHP, MySQL, App Installer, Email Sending & No Ads.
   * [Bubble](https://bubble.io/) — Visual programming to build web and mobile apps without code, free with Bubble branding.
   * [dAppling Network](https://www.dappling.network/) - Decentralized web hosting platform for Web3 frontends focusing on increasing uptime, security, and providing an additional access point for users.
@@ -1146,7 +1145,7 @@ Update Time, 5 active automations, webhooks.
   * [Fenix Web Server](https://preview.fenixwebserver.com) - A developer desktop app for hosting sites locally and sharing them publically (in realtime). Work however you like, using its beautiful user interface, API, and/or CLI.
   * [Free Hosting](https://freehostingnoads.net/) — Free Hosting With PHP 5, Perl, CGI, MySQL, FTP, File Manager, POP E-Mail, free sub-domains, free domain hosting, DNS Zone Editor, Web Site Statistics, FREE Online Support and many more features not offered by other free hosts.
   * [Freehostia](https://www.freehostia.com) — FreeHostia offers free hosting services incl. an industry-best Control Panel & a 1-click installation of 50+ free apps. Instant setup. No forced ads.
-  * [HelioHost](https://heliohost.org) — Non-profit free web hosting with Plesk control panel, PHP, Node.js, Python, Django, Flask, .NET, Perl, CGI, MySQL, PostgreSQL, SQLite, IMAP/POP3/SMTP email, unlimited bandwidth, free subdomains, 1000 MB storage for free with the option to upgrade.
+  * [HelioHost](https://heliohost.org) — Non-profit free web hosting with Plesk control panel, PHP, Node.js, Python, Django, Flask, .NET, Perl, CGI, MySQL, PostgreSQL, SQLite, IMAP/POP3/SMTP email, unlimited bandwidth, free subdomains, 1000 MB storage for free with the option to upgrade. 免费计划已关闭。
   * [Lecturify](https://www.lecturify.net/index.en.html) - Web hosting with sftp access for file upload and download, php available.
   * [Neocities](https://neocities.org) — Static, 1 GB free storage with 200 GB Bandwidth.
   * [Netlify](https://www.netlify.com/) — Builds, deploy and hosts static site/app free for, 100 GB data and 100 GB/month bandwidth.
@@ -1162,10 +1161,10 @@ Update Time, 5 active automations, webhooks.
   * [Versoly](https://versoly.com/) — SaaS focussed website builder - unlimited websites, 70+ blocks, 5 templates, custom CSS, favicon, SEO and forms. No custom domain.
   * [Qoddi](https://qoddi.com) - PaaS service similar to Heroku with a developer-centric approach and all inclusive features. Free tier for static assets, staging and developer apps.
   * [FreeFlarum](https://freeflarum.com/) - Community powered free Flarum hosting for up to 250 users (donate to remove watermark from footer).
-  * [fleek.co](https://fleek.co/) - Build modern sites and apps on the Open Web and its protocols seamlessly free for, unlimited websites and 50 GB/month bandwidth.
+  * [fleek.co](https://fleek.co/) - Build modern sites and apps on the Open Web and its protocols seamlessly free for, unlimited websites and 50 GB/month bandwidth. 访问超时。
   * [MDB GO](https://mdbgo.com/) - Free hosting for 1 project with 2 weeks Container TTL, 500mb RAM per project, SFTP - 1G disk space.
-  * [Patr Cloud](https://patr.cloud/) — An easy-to-use cloud platform, among its paid services it offers hosting 3 static sites for free.
-  * [Serv00.com](https://serv00.com/) — 3 GB of free web hosting with daily backups (7 days). Support: Crontab jobs, SSH access, repositories (GIT, SVN, and Mercurial), support: MySQL, PostgreSQL, MongoDB, PHP, Node.js, Python, Ruby, Java, Perl, TCL/TK, Lua, Erlang, Rust, Pascal, C, C++, D, R, and many more.
+  * [Patr Cloud](https://patr.cloud/) — An easy-to-use cloud platform, among its paid services it offers hosting 3 static sites for free. 提供免费的3个静态站点，数据库需付费，部署访问存在问题。
+  * [Serv00.com](https://serv00.com/) — 3 GB of free web hosting with daily backups (7 days). Support: Crontab jobs, SSH access, repositories (GIT, SVN, and Mercurial), support: MySQL, PostgreSQL, MongoDB, PHP, Node.js, Python, Ruby, Java, Perl, TCL/TK, Lua, Erlang, Rust, Pascal, C, C++, D, R, and many more. 新建站点的下拉列表实际只能选择PHP、Python、Ruby（需自行ssh登录安装解释器，rvm因pkg无法安装sudo而失败；home目录挂载为noexec，需在web管理台的"Additional services"，点击"Run your own applications"来启用，或者ssh后执行"devil binexec on"）、Node.js、proxy(可代理到主机的其他端口，比如使用Java服务)、pointer。
 
 **[⬆️ Back to Top](#table-of-contents)**
 
@@ -1196,27 +1195,27 @@ Update Time, 5 active automations, webhooks.
 
 ## Domain
 
-  * [eu.org](https://nic.eu.org) — Free eu.org domain. Request is usually approved in 14 days.
+  * [eu.org](https://nic.eu.org) — Free eu.org domain. Request is usually approved in 14 days. 先托管域名，再申请域名，申请成功速度较快。
   * [pp.ua](https://nic.ua/) — Free pp.ua subdomains.
 
 **[⬆️ Back to Top](#table-of-contents)**
 
 ## IaaS
 
-  * [backblaze.com](https://www.backblaze.com/b2/) — Backblaze B2 cloud storage. Free 10 GB (Amazon S3-like) object storage for unlimited time
-  * [filebase.com](https://filebase.com/) - S3 Compatible Object Storage Powered by Blockchain. 5 GB free storage for unlimited duration.
+  * [backblaze.com](https://www.backblaze.com/b2/) — Backblaze B2 cloud storage. Free 10 GB (Amazon S3-like) object storage for unlimited time rclone默认支持，访问速度较慢
+  * [filebase.com](https://filebase.com/) - S3 Compatible Object Storage Powered by Blockchain. 5 GB free storage for unlimited duration. 
   * [scaleway](https://www.scaleway.com/en/object-storage/) — S3-Compatible Object Storage. Free 75 GB storage and external outgoing traffic(credit card required).
-  * [Storj](https://storj.io/) — Decentralised Private Cloud Storage for Apps and Developers. Free plan provides 1 Project, 25 GB storage, 25 GB bandwidth per month.
-  * [Tebi](https://tebi.io/) - S3 compatibility object storage.Free 25 GB storage and 250GB outbound transfer.
-  * [Idrive e2](https://www.idrive.com/e2/) - S3 compatibility object storage. 10 GB free storage and 10 GB download bandwidth per month.
+  * [Storj](https://storj.io/) — Decentralised Private Cloud Storage for Apps and Developers. Free plan provides 1 Project, 25 GB storage, 25 GB bandwidth per month. 无法访问
+  * [Tebi](https://tebi.io/) - S3 compatibility object storage.Free 25 GB storage and 250GB outbound transfer. 因兼容S3而被rclone支持，也支持使用minio客户端、S3Cmd、AWS CLI，同步速度较快。14天试用期过后需添加信用卡选择订阅计划！
+  * [Idrive e2](https://www.idrive.com/e2/) - S3 compatibility object storage. 10 GB free storage and 10 GB download bandwidth per month. 无法访问
   * [C2 Object Storage](https://c2.synology.com/en-us/pricing/object-storage) - S3 compatibility object storage. 15 GB free storage and 15 GB download per month.
-  * [Spheron](https://spheron.network/) — From Decentralised Cloud Storage, Web Hosting to Decentralised Compute for Apps & Developers under one platform, the Free plan provides 5GB Storage, 100GB Bandwidth, Unlimited Domain & Projects, $5 worth of Compute resources (Worth $50 w.r.t AWS).
+  * [Spheron](https://spheron.network/) — From Decentralised Cloud Storage, Web Hosting to Decentralised Compute for Apps & Developers under one platform, the Free plan provides 5GB Storage, 100GB Bandwidth, Unlimited Domain & Projects, $5 worth of Compute resources (Worth $50 w.r.t AWS). 脚本加载失败，无法注册成功
 
 **[⬆️ Back to Top](#table-of-contents)**
 
 ## Managed Data Services
 
-   * [Aiven](https://aiven.io/) - Aiven offers free PostgreSQL, MySQL and Redis plans on its open source data platform. Single node, 1 CPU, 1GB RAM and for PostgreSQL and MySQL, 5GB storage. Easy migration to larger plans or across clouds.
+   * [Aiven](https://aiven.io/) - Aiven offers free PostgreSQL, MySQL and Redis plans on its open source data platform. Single node, 1 CPU, 1GB RAM and for PostgreSQL and MySQL, 5GB storage. Easy migration to larger plans or across clouds. PostgreSQL不支持高可用，但支持备份，允许任意IP连接（可设置IP白名单），最多20并发连接。
    * [airtable.com](https://airtable.com/) — Looks like a spreadsheet, but it's a relational database, unlimited bases, 1,200 rows/base and 1,000 API requests/month
    * [Astra](https://www.datastax.com/products/datastax-astra/) — Cloud Native Cassandra as a Service with [80GB free tier](https://www.datastax.com/products/datastax-astra/pricing)
    * [codehooks.io](https://codehooks.io/) — JavaScript serverless API/backend and database service with functions, Mongdb-ish queries, key/value lookups, a job system and a message queue. 1 instance free per project, 5000 records and 5000 calls/month free, 3 developers included. No credit-card required.
@@ -1239,7 +1238,7 @@ Update Time, 5 active automations, webhooks.
    * [restdb.io](https://restdb.io/) - a fast and simple NoSQL cloud database service. With restdb.io you get schema, relations, automatic REST API (with MongoDB-like queries) and an efficient multi-user admin UI for working with data. Free plan allows 3 users, 2500 records and 1 API requests per second.
    * [cockroachlabs.com](https://www.cockroachlabs.com/free-tier/) — Free CockroachDB up to 5GB and 1vCPU (limited [request units](https://www.cockroachlabs.com/docs/cockroachcloud/serverless-faqs.html#what-are-the-usage-limits-of-cockroachdb-serverless-beta))
    * [Neo4j Aura](https://neo4j.com/cloud/aura/) — Managed native Graph DBMS / analytics platform with a Cypher query language and a REST API. Limits on graph size (50k nodes, 175k relationships).
-   * [Neon](https://neon.tech/) — Managed PostgreSQL, 10 branches, 3 GB of storage per branch, no limit on Active time for the primary branch compute, 100 hours of Active time per month (total) for non-primary branch computes.
+   * [Neon](https://neon.tech/) — Managed PostgreSQL, 10 branches, 3 GB of storage per branch, no limit on Active time for the primary branch compute, 100 hours of Active time per month (total) for non-primary branch computes. 提供0.25CU算力，连接有SNI限制
    * [Dgraph Cloud](https://cloud.dgraph.io/pricing?type=free) — Managed native Graph DBMS with a GraphQL API. Limited to 1 MB data transfer per day.
    * [Tinybird](https://tinybird.co) - A serverless managed ClickHouse with connection-less data ingest over HTTP and let's you publish SQL queries as managed HTTP APIs. No time limit on free-tier, 10GB storage + 1000 API requests per day.
    * [TigerGraph Cloud](https://www.tigergraph.com/cloud/) — Managed native Graph DBMS / analytics platform with a SQL-like graph query language and a REST API. One free instance with 2 vCPU, 8GB Memory, and 50GB storage that sleeps after 1 hour of inactivity.
@@ -1259,7 +1258,7 @@ Update Time, 5 active automations, webhooks.
    * [Pinggy](https://pinggy.io) — Public URLs for localhost with a single command, no downloads required. HTTPS / TCP / TLS tunnels. Free plan has 60 minutes tunnel life time.
    * [conveyor.cloud](https://conveyor.cloud/) — Visual Studio extension to expose IIS Express to the local network or over a tunnel to a public URL.
    * [Hamachi](https://www.vpn.net/) — LogMeIn Hamachi is a hosted VPN service that lets you securely extend LAN-like networks to distributed teams with free plan allows unlimited networks with up to 5 peoples
-   * [localhost.run](https://localhost.run/) — Expose locally running servers over a tunnel to a public URL.
+   * [localhost.run](https://localhost.run/) — Expose locally running servers over a tunnel to a public URL. 出现权限禁止，未完成暴露本地端口
    * [localtunnel](https://theboroer.github.io/localtunnel-www/) — Expose locally running servers over a tunnel to a public URL. Free hosted version, and [open source](https://github.com/localtunnel/localtunnel).
    * [ngrok.com](https://ngrok.com/) — Expose locally running servers over a tunnel to a public URL.
    * [Radmin VPN](https://www.radmin-vpn.com/) — Connect multiple computers together via a VPN enabling LAN-like networks. Unlimited peers. (Hamachi alternative)
@@ -1268,14 +1267,14 @@ Update Time, 5 active automations, webhooks.
      * Google STUN — [stun:stun.l.google.com:19302](stun:stun.l.google.com:19302)
      * Twilio STUN — [stun:global.stun.twilio.com:3478?transport=udp](stun:global.stun.twilio.com:3478?transport=udp)
    * [Tailscale](https://tailscale.com/) — Zero config VPN, using the open source WireGuard protocol. Installs on MacOS, iOS, Windows, Linux, and Android devices. Free plan for personal use with 100 devices and 3 user.
-   * [webhookrelay.com](https://webhookrelay.com) — Manage, debug, fan-out and proxy all your webhooks to public or internal (ie: localhost) destinations. Also, expose servers running in a private network over a tunnel by getting a public HTTP endpoint (`https://yoursubdomain.webrelay.io <----> http://localhost:8080`).
+   * [webhookrelay.com](https://webhookrelay.com) — Manage, debug, fan-out and proxy all your webhooks to public or internal (ie: localhost) destinations. Also, expose servers running in a private network over a tunnel by getting a public HTTP endpoint (`https://yoursubdomain.webrelay.io <----> http://localhost:8080`). 网络加载脚本失败
    * [Hookdeck](https://hookdeck.com/pricing) — Develop, test and monitor your webhooks from a single place. 100K requests and 100K attempts per month with 3 days retention.
    * [Xirsys](https://www.xirsys.com/pricing/) — Unlimited STUN usage + 500 MB monthly TURN bandwidth, capped bandwidth, single geographic region.
    * [ZeroTier](https://www.zerotier.com) — FOSS managed virtual Ethernet as a service. Unlimited end-to-end encrypted networks of 25 clients on free plan. Clients for desktop/mobile/NA; web interface for configuration of custom routing rules and approval of new client nodes on private networks
    * [LocalXpose](https://localxpose.io) — Reverse proxy that enables you to expose your localhost servers to the internet. Free plan has 15 minutes tunnel life time.
-   * [Traefik-Hub](https://traefik.io/traefik-hub/) - Publish locally running services over a tunnel to a public custom URL and secure them with access control. Free for 5 services in one cluster.
-   * [Expose](https://expose.dev/) - Expose local sites via secure tunnels. Free plan includes EU Server, Random subdomains and Single user.
-   * [Metered](https://www.metered.ca/) — Free TURN server with 50GB included monthly TURN usage.
+   * [Traefik-Hub](https://traefik.io/traefik-hub/) - Publish locally running services over a tunnel to a public custom URL and secure them with access control. Free for 5 services in one cluster. 需要工作邮箱注册账号
+   * [Expose](https://expose.dev/) - Expose local sites via secure tunnels. Free plan includes EU Server, Random subdomains and Single user. 需使用composer安装expose才能暴露本地端口，13日专业版试用期
+   * [Metered](https://www.metered.ca/) — Free TURN server with 50GB included monthly TURN usage. 访问返回403
 
 **[⬆️ Back to Top](#table-of-contents)**
 
@@ -1387,7 +1386,7 @@ Update Time, 5 active automations, webhooks.
    * [podio.com](https://podio.com/) — You can use Podio with a team of up to five people and try out the features of the Basic Plan, except user management
    * [QuickChart](https://quickchart.io) — Generate embeddable image charts, graphs, and QR codes
    * [redbooth.com](https://redbooth.com) — P2P file syncing, free for up to 2 users
-  * [resmush.it](https://resmush.it) — reSmush.it is a FREE API that provides image optimization. reSmush.it has been implemented on the most common CMS such as Wordpress, Drupal or Magento. reSmush.it is the most used image optimization API with more than 7 billions images already treated, and is still Free of charge.
+   * [resmush.it](https://resmush.it) — reSmush.it is a FREE API that provides image optimization. reSmush.it has been implemented on the most common CMS such as Wordpress, Drupal or Magento. reSmush.it is the most used image optimization API with more than 7 billions images already treated, and is still Free of charge.
    * [Shotstack](https://shotstack.io) - API to generate and edit video at scale. Free up to 20 minutes of rendered video per month
    * [tinypng.com](https://tinypng.com/) — API to compress and resize PNG and JPEG images, offers 500 compressions for free each month
    * [transloadit.com](https://transloadit.com/) — Handles file uploads and encoding of video, audio, images, documents. Free for Open source, charities, and students via the GitHub Student Developer Pack. Commercial applications get 2 GB free for test driving
